@@ -32,8 +32,7 @@ section {
     padding: .3rem; /* Espacio interno */
     margin: 1rem auto; /* Espacio externo */    
     box-shadow: 2px 2px 12px rgba(156, 219, 73, 0.842); /* Color de fondo */
-    border-radius: 10px; /* Bordes redondeados */
-    
+    border-radius: 10px; /* Bordes redondeados */    
 }
  .text-imagen #countdown{
     display: flex;
@@ -44,9 +43,7 @@ section {
     background-color: rgba(255, 0, 0, 0.795);
     color: white;
     border-radius: 1rem;
-} 
-
-
+}
 
 .anexos{
     display: flez;
@@ -63,10 +60,13 @@ section {
    font-size: 1.8rem;   
 }
 
-.textoImagen{
+.textoImagen p{
+     display: block; 
     max-width: 50rem;
     margin: auto;
     padding: 2rem;   
+    /* justify-content: center;
+    text-align: center;  */
 }
 .email p {        
     display: flex; 
